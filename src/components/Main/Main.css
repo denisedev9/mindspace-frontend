@@ -1,0 +1,145 @@
+.hero {
+    background-color: #7c6b8a;
+    color: #fff;
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 32px;
+    line-height: 1.6;
+}
+
+.hero__button {
+    display: inline-block;
+    padding: 14px 36px;
+    background-color: #fff;
+    color: #7c6b8a;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.hero__button:hover {
+    background-color: #f0e6f6;
+}
+
+.affirmation {
+    padding: 60px;
+    text-align: center;
+    background-color: #f0e6f6;
+}
+
+.affirmation__title {
+    font-size: 28px;
+    color: #7c6b8a;
+    margin-bottom: 24px;
+}
+
+.affirmation__text {
+    font-size: 22px;
+    font-style: italic;
+    color: #4a3f55;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.affirmation__error {
+    color: #c0392b;
+    font-size: 16px;
+}
+
+.services {
+    padding: 60px;
+    text-align: center;
+}
+
+.services__title {
+    font-size: 28px;
+    color: #2c2c2c;
+    margin-bottom: 32px;
+}
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+}
+
+.services__item {
+    padding: 12px 24px;
+    background-color: #fff;
+    border: 2px solid #7c6b8a;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #7c6b8a;
+}
+
+.cta {
+    padding: 60px;
+    text-align: center;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.cta__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.cta__button {
+    display: inline-block;
+    padding: 14px 36px;
+    background-color: #7c6b8a;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.cta__button:hover {
+    background-color: #9b8aaa;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+    }
+
+    .hero__subtitle {
+        font-size: 16px;
+    }
+
+    .affirmation {
+        padding: 40px 20px;
+    }
+
+    .affirmation__text {
+        font-size: 18px;
+    }
+
+    .services {
+        padding: 40px 20px;
+    }
+
+    .cta {
+        padding: 40px 20px;
+    }
+}

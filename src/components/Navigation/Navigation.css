@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.navigation__link {
+    font-size: 16px;
+    color: #2c2c2c;
+    transition: color 0.2s ease;
+}
+
+.navigation__link:hover {
+    color: #7c6b8a;
+}
+
+.navigation__link_active {
+    color: #7c6b8a;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        gap: 16px;
+    }
+
+    .navigation__link {
+        font-size: 14px;
+    }
+}
