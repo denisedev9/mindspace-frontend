@@ -27,13 +27,23 @@ function Main() {
     <main className="main">
       <section className="hero">
         <div className="hero__content">
-          <h1 className="hero__title">Psic. Denise Hanono</h1>
-          <p className="hero__subtitle">Psicóloga clínica especializada en ansiedad, relaciones y bienestar emocional.</p>
-          <a href="https://wa.me/tunumero" target="_blank" rel="noreferrer" className="hero__button">Agenda una sesión</a>
+          <span className="hero__tag">Psicología Clínica Online</span>
+          <h1 className="hero__title">Un espacio seguro <span>para ti</span></h1>
+          <p className="hero__subtitle">Acompaño a adolescentes y adultos en su proceso de autoconocimiento, sanación y crecimiento personal. Todo desde la comodidad de tu hogar.</p>
+          <div className="hero__buttons">
+            <a href="https://wa.me/tunumero" target="_blank" rel="noreferrer" className="hero__button">Agenda una sesión</a>
+            <Link to="/about" className="hero__button hero__button_secondary">Conoce más</Link>
+          </div>
+        </div>
+        <div className="hero__decoration">
+          <div className="hero__circle hero__circle_large"></div>
+          <div className="hero__circle hero__circle_medium"></div>
+          <div className="hero__circle hero__circle_small"></div>
         </div>
       </section>
 
       <section className="affirmation">
+        <span className="affirmation__tag">Para ti, hoy</span>
         <h2 className="affirmation__title">Afirmación del día</h2>
         {isLoading && <Preloader />}
         {error && <p className="affirmation__error">{error}</p>}
@@ -43,19 +53,27 @@ function Main() {
       </section>
 
       <section className="services">
-        <h2 className="services__title">¿En qué puedo ayudarte?</h2>
+        <span className="services__tag">Servicios</span>
+        <h2 className="services__title">¿Cómo puedo acompañarte?</h2>
         <ul className="services__list">
-          <li className="services__item">Ansiedad y estrés</li>
-          <li className="services__item">Depresión</li>
-          <li className="services__item">Relaciones de pareja</li>
-          <li className="services__item">Autoestima</li>
-          <li className="services__item">Duelo</li>
-          <li className="services__item">Desarrollo personal</li>
+          <li className="services__item">
+            <div className="services__item-icon">🧠</div>
+            <h3 className="services__item-title">Terapia Individual Online</h3>
+            <p className="services__item-text">Sesiones personalizadas para adolescentes y adultos. Un espacio confidencial para trabajar tus emociones y alcanzar tu bienestar.</p>
+            <a href="https://wa.me/tunumero" target="_blank" rel="noreferrer" className="services__item-button">Agendar sesión</a>
+          </li>
+          <li className="services__item">
+            <div className="services__item-icon">🧘</div>
+            <h3 className="services__item-title">Grupo de Meditación Online</h3>
+            <p className="services__item-text">Sesiones grupales de meditación guiada para conectar con el presente, reducir el estrés y encontrar calma en tu día a día.</p>
+            <a href="https://wa.me/tunumero" target="_blank" rel="noreferrer" className="services__item-button">Unirme al grupo</a>
+          </li>
         </ul>
       </section>
 
       <section className="cta">
         <h2 className="cta__title">¿Listo para empezar tu camino?</h2>
+        <p className="cta__subtitle">Da el primer paso hacia tu bienestar emocional hoy.</p>
         <Link to="/articles" className="cta__button">Lee mis artículos</Link>
       </section>
     </main>
