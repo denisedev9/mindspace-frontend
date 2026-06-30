@@ -1,16 +1,26 @@
-# React + Vite
+# MindSpace - Plataforma de Bienestar en Línea
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta aplicación es una solución de frontend diseñada para facilitar el acceso a servicios de bienestar y apoyo profesional. El proyecto se centra en una experiencia de usuario limpia y funcional, integrando herramientas dinámicas para el usuario final.
 
-Currently, two official plugins are available:
+# Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- React Router (Gestión de navegación)
+- GitHub Pages (Despliegue)
+- Consumo de API REST externa
 
-## React Compiler
+# Funcionalidad Destacada
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Integración con API de Afirmaciones: La aplicación se conecta a una API de terceros para desplegar afirmaciones diarias de manera dinámica, brindando un valor añadido de motivación constante a los usuarios.
 
-## Expanding the ESLint configuration
+# Instrucciones de Uso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Acceso: Puedes visualizar la aplicación en vivo aquí: MindSpace
+
+# Solución de Problemas: Si notas que las afirmaciones o algún componente de la API no se cargan correctamente, por favor realiza un Hard Refresh en tu navegador utilizando la combinación de teclas:
+
+Windows/Linux: Ctrl + Shift + R
+
+macOS: Cmd + Shift + R
+
+# Entra al proyecto: https://denisedev9.github.io/mindspace-frontend/
