@@ -1,6 +1,6 @@
 .articles__hero {
-    background-color: #7c6b8a;
-    color: #fff;
+    background-color: #eaf7f5;
+    color: #5b5959;
     padding: 80px 60px;
     text-align: center;
 }
@@ -77,7 +77,7 @@
 .article-card__button {
     align-self: flex-start;
     padding: 10px 20px;
-    background-color: #7c6b8a;
+    background-color: #7ec8b8;;
     color: #fff;
     border-radius: 20px;
     font-size: 14px;
@@ -87,14 +87,14 @@
 }
 
 .article-card__button:hover {
-    background-color: #9b8aaa;
+    background-color: #5c7c80;
 }
 
 .articles__more-button {
     display: block;
     margin: 40px auto 0;
     padding: 14px 40px;
-    background-color: #7c6b8a;
+    background-color:  #7ec8b8;
     color: #fff;
     border-radius: 30px;
     font-size: 16px;
@@ -103,7 +103,7 @@
 }
 
 .articles__more-button:hover {
-    background-color: #9b8aaa;
+    background-color:#5c7c80;
 }
 
 .article-page {

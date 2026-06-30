@@ -248,8 +248,8 @@
 .cta {
     padding: 100px 80px;
     text-align: center;
-    background-color: #1a1a2e;
-    color: #fff;
+    background-color:#b4dfd7;
+    color: #ffffff;
 }
 
 .cta__title {
@@ -260,14 +260,14 @@
 
 .cta__subtitle {
     font-size: 18px;
-    color: #aaa;
+    color: #fdfdfd;
     margin-bottom: 40px;
 }
 
 .cta__button {
     display: inline-block;
     padding: 16px 48px;
-    background-color: #7ec8b8;
+    background-color: #5bb5a2;
     color: #fff;
     border-radius: 50px;
     font-size: 16px;
@@ -276,7 +276,7 @@
 }
 
 .cta__button:hover {
-    background-color: #5bb5a2;
+    background-color: #5c7c80;
     transform: translateY(-2px);
 }
 
